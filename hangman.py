@@ -17,7 +17,7 @@ time.sleep(0.5)
 #here we set the secret
 word = "secret"
 
-#creates an variable with an empty value
+#creates a variable with an empty value
 guesses = ''
 
 #determine the number of turns
@@ -28,7 +28,7 @@ turns = 10
 #check if the turns are more than zero
 while turns > 0:         
 
-    # make a counter that starts with zero
+    # make a failed counter that starts with zero
     failed = 0             
 
     # for every character in secret_word    
@@ -40,7 +40,7 @@ while turns > 0:
         # print then out the character
             print char,    
 
-       else:
+        else:
     
         # if not found, print a dash
             print "_",     
@@ -52,8 +52,7 @@ while turns > 0:
 
     # print You Won
     if failed == 0:        
-        print "
-You won"  
+        print " You won"  
 
     # exit the script
         break              
@@ -73,8 +72,7 @@ You won"
         turns -= 1        
  
     # print wrong
-        print "Wrong
-"    
+        print "Wrong "    
  
     # how many turns are left
         print "You have", + turns, 'more guesses' 
@@ -83,5 +81,4 @@ You won"
         if turns == 0:           
     
         # print "You Loose"
-            print "You Loose
-"  
+            print "You Loose "  
