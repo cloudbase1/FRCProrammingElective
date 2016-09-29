@@ -5,7 +5,7 @@ import time
 name = raw_input("What is your name? ")
 
 print "Hello, " + name, "Time to play hangman!"
-"Added to test Git path"
+
 
 print " "
 
